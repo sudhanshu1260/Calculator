@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+section{
+    display: flex;
+}
+.display-container{
+    margin-top: 5vh;
+    color: white;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    height: 4rem;
+    background-color:rgb(26, 26, 81);
+    color: white;
+    line-height: 4rem;
+}
+
+.display{
+    padding: 2vh;
+    width:40vmin;
+    height: 10vmin;
+    background-color: lightgreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid black;
+    font-size: larger;
+    border-radius: 10px 10px 0 0;
+
+}
+
+.display p{
+   font-size: 5vmin;
+   font-weight: bold;
+}
+#button-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-container{
+    padding: 2vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    width:40vmin;
+    grid-gap: 10px;
+    grid-template-columns: auto auto auto auto auto;
+    border: 3px solid black;
+    border-radius:0 0 10px 10px;
+}
+
+.button{
+    width:7vmin;
+    height: 7vmin;
+    background-color: black;
+    color: white;
+    border-radius: 40%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 2vmin;
+}
+.nav1{
+    border: 3px solid black;
+    width: 20%;
+    height: 90vh;
+    background-color: cornflowerblue;
+}
+
+.nav2{
+    width: 100%;
+}
+
